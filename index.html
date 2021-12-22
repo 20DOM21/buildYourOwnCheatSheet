@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Forms Reference</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>HTML Forms Reference</h1>
+        </header>
+        <br>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tags</th>
+                        <th>Element</th>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="top-line">
+                        <td  class="monospace"><span>&lt;form&gt;&lt;/form&gt;</span></td>
+                        <td>Form</td>
+                        <td></td>
+                        <td></td>
+                        <td>Allows users to input information and sends it to an external source.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>action="[destination file]"</span></td>
+                        <td>Action</td>
+                        <td>Determines where the form's information goes.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>method="POST"</span><br><span>method="GET"</span></td>
+                        <td>Method</td>
+                        <td>"POST" is used to send data to a server to create/update a resource, whereas "GET" is used to request data from a specified resource.</td>
+                    </tr>
+                    <tr class="top-line">
+                        <td class="monospace"><span>&lt;input&gt;&lt;/input&gt;</span></td>
+                        <td>Input</td>
+                        <td></td>
+                        <td></td>
+                        <td>Adds fields for users to input information.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>name="name"</span></td>
+                        <td>Name</td>
+                        <td>Assigns a name to an &lt;input&gt; element.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>value="value"</span></td>
+                        <td>Value</td>
+                        <td>This attribute is used with an &lt;input&gt; element for users to have a pre-filled text field when they first see the rendered form.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>type="text"</span></td>
+                        <td>Type: text</td>
+                        <td>Creates a single row field for text input.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>type="password"</span></td>
+                        <td>Type: password</td>
+                        <td>Creates a single row field that censors text input.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>type="number"</span></td>
+                        <td>Type: number</td>
+                        <td>Creates a single row field for number input.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>type="range"</span></td>
+                        <td>Type: range</td>
+                        <td>Creates a slider to select from a range of numbers.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>type="checkbox"</span></td>
+                        <td>Type: checkbox</td>
+                        <td>Creates a single checkbox which can be paired with other checkboxes.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>type="radio"</span></td>
+                        <td>Type: radio</td>
+                        <td>Creates a radio button that can be paired with other radio buttons.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>type="list"</span></td>
+                        <td>Type: list</td>
+                        <td>Will pair the &lt;input&gt; with &lt;datalist&gt; if the id of both are the same.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>type="submit"</span></td>
+                        <td>Type: submit</td>
+                        <td>Creates a submit button</td>
+                    </tr>
+                    <tr class="top-line">
+                        <td class="monospace"><span>&lt;select&gt;&lt;/select&gt;</span></td>
+                        <td>Select</td>
+                        <td></td>
+                        <td></td>
+                        <td>It is populated with &lt;option&gt; elements and works with an &lt;input&gt; to search through choices.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>name="name"</span></td>
+                        <td>Name</td>
+                        <td>Assigns a name. Without the name the form won't work.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>id="id"</span></td>
+                        <td>ID</td>
+                        <td>Gives unique ID.</td>
+                    </tr>
+                    <tr class="top-line">
+                        <td class="monospace"><span>&lt;option&gt;&lt;/option&gt;</span></td>
+                        <td>Option</td>
+                        <td></td>
+                        <td></td>
+                        <td>The &lt;select&gt; or &lt;datalist&gt; can have many &lt;option&gt;s, which either render a dropdown list for selection (in &lt;select&gt; element), or searches through choices (for &lt;datalist&gt; element).</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>value="value"</span></td>
+                        <td>Value</td>
+                        <td>Assigns value to the &lt;option&gt;.</td>
+                    </tr>
+                    <tr class="top-line">
+                        <td class="monospace"><span>&lt;datalist&gt;&lt;/datalist&gt;</span></td>
+                        <td>Datalist</td>
+                        <td></td>
+                        <td></td>
+                        <td>It is populated with &lt;option&gt; elements and works with an &lt;input&gt; to search through choices.</td>
+                    </tr>
+                    <tr class="top-line">
+                        <td class="monospace"><span>&lt;textarea&gt;&lt;textarea&gt;</span></td>
+                        <td>Textarea</td>
+                        <td></td>
+                        <td></td>
+                        <td>A text input field that has a customizable area.</td>
+                    </tr>
+                    <tr class="top-line">
+                        <td class="monospace"><span>&lt;label&gt;&lt;/label&gt;</span></td>
+                        <td>Label</td>
+                        <td></td>
+                        <td></td>
+                        <td>Displays text that is written between the opening and closing tags.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>for="[&lt;input&gt;'s id]"</span></td>
+                        <td>For</td>
+                        <td>Assigns the &lt;for&gt; of the &lt;label&gt; element with the value of the id attribut of &lt;input&gt;.</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </main>
+    </body>
+    <footer></footer>
+</html>
