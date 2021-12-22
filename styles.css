@@ -7,6 +7,10 @@ header {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
 }
 thead {
     background-color: steelblue;
